@@ -18,7 +18,7 @@ int main()
     int s = 0;
     for (int k = 1; k < 6; k++)
     {
-        s = s + pow(x, k);
+        s = s + x*k;*//зміна коду
     }
     rez = pow(x, 3) + pow(sin(x), 2) - 3 / s + pow(x, 4);
     cout << "Y=" << rez << endl;
